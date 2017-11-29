@@ -60,7 +60,7 @@ Bila Anda menggunakan GitHub Desktop, panduan umum berikut dapat membantu Anda:
 
 Disarankan untuk menyalakan `Edit`->`Automatically Sync after Committing`. Langkah-langkahnya sebagai berikut:
 
-1. Lakukan _Fork_ pada _repository_ latihan yang Anda inginkan (daftar _repository_ dapat dilihat di [github.com/struktur-data](https://github.com/struktur-data)).
+1. Lakukan _Fork_ pada _repository_ tugas yang Anda inginkan (daftar _repository_ dapat dilihat di [github.com/struktur-data](https://github.com/struktur-data)).
 1. _Clone repository_ tersebut ke komputer Anda.
 1. Buka file utama (`*.cpp`) menggunakan Code::Blocks.
 1. Ubah program untuk menyelesaikan solusi Anda.
