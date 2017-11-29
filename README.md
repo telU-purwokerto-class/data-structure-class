@@ -142,7 +142,8 @@ Sesi ke-2:
 * Mendaftar paket [GitHub Student Developer Pack](https://education.github.com/pack)
 * Pasang [Code::Blocks](http://www.codeblocks.org/downloads/26)
    * Untuk Windows, gunakan varian **mingw-setup**.
-* TODO: Kerjakan tugas pendahuluan.
+* TODO: Kerjakan tugas pendahuluan. Batas akhir pengumpulan: sehari sebelum sesi kuliah minggu ke-2.
+* TODO: Implementasi Linear Linked List. Batas akhir pengumpulan: Minggu-6 perkuliahan.
 
 ### Minggu ke-2
 
@@ -272,7 +273,7 @@ Sesi ke-2:
 
 Tugas:
 
-* TODO
+* TODO: Implementasi Priority Queue/Stack. Batas akhir pengumpulan: Minggu-5 perkuliahan setelah UTS (minggu ke-12).
 
 Praktikum:
 
@@ -290,7 +291,7 @@ Sesi ke-2:
 
 Tugas:
 
-* TODO
+* TODO: Implementasi Struktur Data Graf. Batas akhir pengumpulan: Minggu-6 perkuliahan setelah UTS (minggu ke-13).
 
 ### Minggu ke-10
 
