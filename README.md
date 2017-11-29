@@ -245,7 +245,7 @@ Praktikum:
 * Implementasi Algoritma Linked List with Last pada bahasa pemrograman C++
 * Implementasi Algoritma Linked List with Last pada suatu kasus
 
-### Ujian Tengah Semester
+### Ujian Tengah Semester (UTS)
 
 Materi ujian:
 
@@ -368,6 +368,18 @@ Praktikum:
 
 * Implementasi Algoritma Graph pada bahasa pemrograman C++
 * Implementasi Graph pada suatu kasus
+
+### Ujian Akhir Semester (UAS)
+
+Materi ujian:
+
+1. Stack
+2. Queue
+3. Tree
+   * Algoritma penelusuran tree: preorder, inorder, postorder
+   * Binary Search Tree
+4. Graph
+   * Algoritma penelusuran graph: BFS dan DFS
 
 ## Tips Tugas Kelompok
 
