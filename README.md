@@ -121,8 +121,10 @@ Sesi ke-1:
 1. GitHub workflow
     * Penjelasan [workflow](#workflow)
     * Buat _pull request_ di [students repository](https://github.com/struktur-data/students)
+    * Demonstrasi Travis CI
 1. Slide awal: TODO
 1. Penjelasan [ketentuan](#ketentuan)
+1. Debugging di Code::Blocks
 
 Sesi ke-2:
 

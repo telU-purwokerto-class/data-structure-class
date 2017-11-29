@@ -45,3 +45,12 @@ To encourage broader community engagement, instead of having office hours specif
 ## Sharing
 
 The material is free to modify and distribute – if you end up using some of all of the material for your own class, training materials, etc., I would love to [hear from you](https://github.com/advanced-js/syllabus/issues/new)!
+
+## Referensi
+
+Referensi berikut dirasa bermanfaat untuk menerapkan kegiatan pembelajaran/perkuliahan dengan bantuan GitHub dan peralatan daring:
+
+* [Advanced JavaScript](https://github.com/advanced-js/syllabus) oleh Aidan Feldman
+* [Real-time feedback for students using continuous integration tools](https://github.com/blog/2324-real-time-feedback-for-students-using-continuous-integration-tools) - Omar Shaikh, San Francisco State University
+   * [Video walkthrough](https://www.youtube.com/watch?v=qimc_OGD75E)
+   * [teach-cpp-autograding repository](https://github.com/Omarasifshaikh/teach-cpp-autograding) (using CMake, GCC, clang, and Google Test)
