@@ -30,7 +30,7 @@ Pada mata kuliah ini diajarkan berbagai macam struktur data yang dapat diimpleme
 
 ## Prasyarat
 
-* Matakuliah syarat: Dasar Algoritma dan Pemrograman.
+* Matakuliah syarat: Dasar Algoritma dan Pemrograman ([CCH1A4](http://dedetarwidi.staff.telkomuniversity.ac.id/lectures/dasar-algoritma-dan-pemrograman/)).
 * Pemahaman variabel, tipe data, alur kendali, dan penggunaan fungsi dasar di C++
 * Komputer dengan OS Windows 7 (atau lebih baru) 32-bit/64-bit, RAM minimal 2 GB
 
@@ -391,28 +391,37 @@ Materi ujian:
 
 ## Pustaka
 
-### Utama
+### Pustaka Utama
 
 * Diktat Kuliah IF2181 Struktur Data, Inggriani Liem, ITB, 2003.
 
-###	Pendukung
+###	Pustaka Pendukung
 
 * Standish, Thomas A. [Data Structures, Algorithms, & Software Principles in C](http://openlibrary.telkomuniversity.ac.id/home/catalog/id/36466/slug/data-structures-algorithms-software-principles-in-c.html). Addison wesley Publishing Company 1995.
 * AHO, Alfred V., John E. Hopcroft, Jeffrey D. Ullman. [Data Structures and Algorithm](http://openlibrary.telkomuniversity.ac.id/home/catalog/id/34600/slug/data-structures-and-algorithms.html). Addison Wesley Publishing Company. 1987.
 
-### Tools Utama
+### Materi Pemula
+
+Agar dapat memahami mata kuliah ini dengan lancar, Anda perlu menguasai dasar algoritma dan pemrograman.
+Kapan pun Anda membutuhkannya, silakan manfaatkan referensi berikut...
+
+* [Dasar Algoritma dan Pemrograman](http://dedetarwidi.staff.telkomuniversity.ac.id/lectures/dasar-algoritma-dan-pemrograman/) oleh [Dede Tarwidi, S.Si., M.Si., M.Sc.](http://dedetarwidi.staff.telkomuniversity.ac.id/)
+
+### Tools
+
+#### Tools Utama
 
 * C/C++ Compiler dan IDE: [Code::Blocks](www.codeblocks.org) (termasuk GCC/G++ compiler dan GDB debugger dari [TDM-GCC](http://tdm-gcc.tdragon.net/))
    * Alternatif: [Eclipse](https://www.eclipse.org/) + GCC/G++ compiler dan GDB debugger dari [TDM-GCC](http://tdm-gcc.tdragon.net/)
 
-### Tools Pendukung
+#### Tools Pendukung
 
 * C/C++ build system: [CMake](http://www.cmake.org)
 * unit testing: [Google Test](https://github.com/google/googletest)
 * berbagi kode: [gist.github.com](https://gist.github.com/)
 * tanya jawab: [Stack Overflow](http://stackoverflow.com/)
 
-### GitHub
+#### GitHub
 
 * Git and GitHub
     * [Official GitHub Help](https://help.github.com/)
