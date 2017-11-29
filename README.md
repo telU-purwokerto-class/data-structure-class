@@ -65,7 +65,7 @@ Disarankan untuk menyalakan `Edit`->`Automatically Sync after Committing`. Langk
 1. Buka file utama (`*.cpp`) menggunakan Code::Blocks.
 1. Ubah program untuk menyelesaikan solusi Anda.
 1. Jalankan program maupun gunakan fungsi _debugging_. Ulangi hingga sesuai harapan Anda.
-1. Pastikan semua kode Anda sudah di-_commit_.
+1. Pastikan semua kode Anda sudah di- _commit_.
 1. _Push/sync_ ke GitHub.
 1. [Buat _pull request_](https://help.github.com/articles/creating-a-pull-request/) pada _repository_ induk. Setiap tugas memiliki jadwal _deadline_ yang sudah ditentukan.
 1. Anda tetap dapat mengirim perbaikan dan penyempurnaan sampai waktu pengirim tugas ditutup - silakan tambahkan komentar pada _pull request_ untuk memberitahu bahwa Anda telah memperbaruinya.
