@@ -10,7 +10,7 @@ permalink: /
 * **Mata Kuliah:** [ITH1B4, Telkom University](http://bit.telkomuniversity.ac.id/?page_id=242)
 * **Dosen:** Danang Junaedi <[danangjunaedi@telkomuniversity.ac.id](mailto:danangjunaedi@telkomuniversity.ac.id)>, Hendy Irawan <[hendy@hendyirawan.com](mailto:hendy@hendyirawan.com)>
 * **Butuh bantuan?**
-   * Lihat dan buat [issues](https://github.com/struktur-data/syllabus/issues)
+   * Lihat [issues](https://github.com/struktur-data/syllabus/issues) yang ada atau buat _issue_ baru
    * Email [danangjunaedi@telkomuniversity.ac.id](mailto:danangjunaedi@telkomuniversity.ac.id) / [hendy@hendyirawan.com](mailto:hendy@hendyirawan.com) untuk diskusi/konsultasi atau bertemu langsung
 
 ## Deskripsi Mata Kuliah
