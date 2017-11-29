@@ -8,10 +8,10 @@ permalink: /
 ***Bila Anda guru/dosen atau tertarik dengan desain mata kuliah ini, silakan lihat dokumen [meta](https://github.com/struktur-data/syllabus/blob/gh-pages/meta.md).***
 
 * **Mata Kuliah:** [ITH1B4, Telkom University](http://bit.telkomuniversity.ac.id/?page_id=242)
-* **Dosen:** Danang Junaedi, Hendy Irawan <[hendy@hendyirawan.com](mailto:hendy@hendyirawan.com)>
+* **Dosen:** Danang Junaedi <[danangjunaedi@telkomuniversity.ac.id](mailto:danangjunaedi@telkomuniversity.ac.id)>, Hendy Irawan <[hendy@hendyirawan.com](mailto:hendy@hendyirawan.com)>
 * **Butuh bantuan?**
    * Lihat dan buat [issues](https://github.com/struktur-data/syllabus/issues)
-   * [Email hendy@hendyirawan.com](mailto:hendy@hendyirawan.com) untuk diskusi/konsultasi atau bertemu langsung
+   * Email [danangjunaedi@telkomuniversity.ac.id](mailto:danangjunaedi@telkomuniversity.ac.id) / [hendy@hendyirawan.com](mailto:hendy@hendyirawan.com) untuk diskusi/konsultasi atau bertemu langsung
 
 ## Deskripsi Mata Kuliah
 
