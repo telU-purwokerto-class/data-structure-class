@@ -411,7 +411,7 @@ Kapan pun Anda membutuhkannya, silakan manfaatkan referensi berikut...
 
 #### Tools Utama
 
-* C/C++ Compiler dan IDE: [Code::Blocks](www.codeblocks.org) (termasuk GCC/G++ compiler dan GDB debugger dari [TDM-GCC](http://tdm-gcc.tdragon.net/))
+* C/C++ Compiler dan IDE: [Code::Blocks](http://www.codeblocks.org) (termasuk GCC/G++ compiler dan GDB debugger dari [TDM-GCC](http://tdm-gcc.tdragon.net/))
    * Alternatif: [Eclipse](https://www.eclipse.org/) + GCC/G++ compiler dan GDB debugger dari [TDM-GCC](http://tdm-gcc.tdragon.net/)
 
 #### Tools Pendukung
