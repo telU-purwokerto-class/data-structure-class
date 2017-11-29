@@ -23,9 +23,9 @@ permalink: /
 Pada mata kuliah ini diajarkan berbagai macam struktur data yang dapat diimplementasikan dalam program komputer, serta bagaimana memilih struktur data yang tepat untuk suatu kasus tertentu. Materi yang diajarkan meliputi:
 
 1. Abstract Data Type (ADT);
-2. representasi struktur data linier dan primitif-primitifnya (array, linked list, variasi linked list, stack, queue);
-3. representasi struktur data non-linier dan primitif-primitifnya (tree, graph, multilist); dan
-4. algoritma penelusuran (preorder, inorder, postorder) dan pencarian (BFS, DFS).
+2. representasi struktur data linier dan primitif-primitifnya (_array_, _linked list_, variasi _linked list_, _stack_, _queue_);
+3. representasi struktur data non-linier dan primitif-primitifnya (_tree_, _graph_, _multilist_); dan
+4. algoritma penelusuran (_preorder_, _inorder_, _postorder_) dan pencarian (BFS, DFS).
 
 ## Capaian Pembelajaran
 
@@ -127,13 +127,13 @@ Sesi ke-1:
     * Penjelasan [workflow](#workflow)
     * Buat _pull request_ di [students repository](https://github.com/struktur-data/students)
     * Demonstrasi Travis CI
-1. Slide awal: TODO
+1. TODO: Slide awal: Introduction to Data Structure
 1. Penjelasan [ketentuan](#ketentuan)
 1. Debugging di Code::Blocks
 
 Sesi ke-2:
 
-1. Materi: Pengertian dan kegunaan Abstrak Data Type, Pointer
+1. Materi: Introduction to Data Structure
 
 #### Tugas
 
@@ -149,11 +149,11 @@ Sesi ke-2:
 
 Sesi ke-1:
 
-* Pengertian dan Algoritma Linear List
+* Pengertian dan kegunaan Abstract Data Type
 
 Sesi ke-2:
 
-* Pengertian dan Algoritma Linear List
+* Pengertian dan kegunaan Abstract Data Type
 
 #### Tugas
 
@@ -163,17 +163,17 @@ Sesi ke-2:
 
 Sesi ke-1:
 
-* Implementasi Algoritma Linear List pada bahasa pemrograman C++
+* Pengertian dan kegunaan Pointer
 
 Sesi ke-2:
 
-* Implementasi Algoritma Linear List pada bahasa pemrograman C++
+* Pengertian dan kegunaan Pointer
 
-Tugas:
+Praktikum:
 
 * TODO
 
-Praktikum:
+#### Tugas
 
 * TODO
 
@@ -181,19 +181,20 @@ Praktikum:
 
 Sesi ke-1:
 
-* Implementasi Algoritma Linear List pada bahasa pemrograman C++
+* Pengertian dan Algoritma Linear List
 
 Sesi ke-2:
 
-* Implementasi Algoritma Linear List pada bahasa pemrograman C++
-
-Tugas:
-
-* TODO
+* Single Linked List
+* Implementasi Single Linked List pada bahasa pemrograman C++
 
 Praktikum:
 
 * Implementasi Algoritma Linear List pada bahasa pemrograman C++
+
+#### Tugas
+
+* TODO
 
 ### Minggu ke-5
 
@@ -205,13 +206,13 @@ Sesi ke-2:
 
 * Implementasi Algoritma Double List pada bahasa pemrograman C++
 
-Tugas:
-
-* TODO
-
 Praktikum:
 
 * Implementasi Algoritma Double List pada bahasa pemrograman C++
+
+#### Tugas
+
+* TODO
 
 ### Minggu ke-6
 
@@ -224,14 +225,14 @@ Sesi ke-2:
 
 * Implementasi Algoritma Circular List pada suatu kasus
 
-Tugas:
-
-* TODO
-
 Praktikum:
 
 * Implementasi Algoritma Circular List pada bahasa pemrograman C++
 * Implementasi Algoritma Circular List pada suatu kasus
+
+#### Tugas
+
+* TODO
 
 ### Minggu ke-7
 
@@ -244,14 +245,14 @@ Sesi ke-2:
 
 * Implementasi Algoritma Linked List with Last pada suatu kasus
 
-Tugas:
-
-* TODO
-
 Praktikum:
 
 * Implementasi Algoritma Linked List with Last pada bahasa pemrograman C++
 * Implementasi Algoritma Linked List with Last pada suatu kasus
+
+#### Tugas
+
+* TODO
 
 ### Ujian Tengah Semester (UTS)
 
@@ -271,13 +272,14 @@ Sesi ke-2:
 
 * Implementasi algoritma Stack pada bahasa pemrograman C++
 
-Tugas:
-
-* TODO: Implementasi Priority Queue/Stack. Batas akhir pengumpulan: Minggu-5 perkuliahan setelah UTS (minggu ke-12).
-
 Praktikum:
 
 * Implementasi algoritma Stack pada bahasa pemrograman C++
+
+#### Tugas
+
+* TODO: Implementasi Priority Queue/Stack.
+   Batas akhir pengumpulan: Minggu-5 perkuliahan setelah UTS (minggu ke-12).
 
 ### Minggu ke-9
 
@@ -289,9 +291,10 @@ Sesi ke-2:
 
 * Implementasi algoritma Queue pada bahasa pemrograman C++
 
-Tugas:
+#### Tugas
 
-* TODO: Implementasi Struktur Data Graf. Batas akhir pengumpulan: Minggu-6 perkuliahan setelah UTS (minggu ke-13).
+* TODO: Implementasi Struktur Data Graf.
+   Batas akhir pengumpulan: Minggu-6 perkuliahan setelah UTS (minggu ke-13).
 
 ### Minggu ke-10
 
@@ -303,13 +306,13 @@ Sesi ke-2:
 
 * Implementasi algoritma Queue pada bahasa pemrograman C++
 
-Tugas:
-
-* TODO
-
 Praktikum:
 
 * Implementasi algoritma Queue pada bahasa pemrograman C++
+
+#### Tugas
+
+* TODO
 
 ### Minggu ke-11
 
@@ -319,9 +322,9 @@ Sesi ke-1:
 
 Sesi ke-2:
 
-* Pengertian Tree beserta implementasi algoritma penelusurannya (preorder, inorder, postorder)
+* Review algoritma rekursif
 
-Tugas:
+#### Tugas
 
 * TODO
 
@@ -329,6 +332,7 @@ Tugas:
 
 Sesi ke-1:
 
+* Pengertian Tree beserta implementasi algoritma penelusurannya (preorder, inorder, postorder)
 * Pengertian dan Algoritma Binary Search Tree 
 * Implementasi Algoritma Binary Search Tree pada bahasa pemrograman C++
 
@@ -336,13 +340,13 @@ Sesi ke-2:
 
 * Implementasi Binary Search Tree pada suatu kasus
 
-Tugas:
-
-* TODO
-
 Praktikum:
 
 * Implementasi Algoritma Binary Search Tree pada bahasa pemrograman C++
+
+#### Tugas
+
+* TODO
 
 ### Minggu ke-13
 
@@ -354,7 +358,7 @@ Sesi ke-2:
 
 * Pengertian dan implementasi algoritma penelusuran Graf (BFS dan DFS)
 
-Tugas:
+#### Tugas
 
 * TODO
 
@@ -368,14 +372,14 @@ Sesi ke-2:
 
 * Implementasi Graph pada suatu kasus
 
-Tugas:
-
-* TODO
-
 Praktikum:
 
 * Implementasi Algoritma Graph pada bahasa pemrograman C++
 * Implementasi Graph pada suatu kasus
+
+#### Tugas
+
+* TODO
 
 ### Ujian Akhir Semester (UAS)
 
