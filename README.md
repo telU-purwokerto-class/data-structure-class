@@ -9,6 +9,11 @@ permalink: /
 
 * **Mata Kuliah:** [ITH1B4, Telkom University](http://bit.telkomuniversity.ac.id/?page_id=242)
 * **Dosen:** Danang Junaedi <[danangjunaedi@telkomuniversity.ac.id](mailto:danangjunaedi@telkomuniversity.ac.id)>, Hendy Irawan <[hendy@hendyirawan.com](mailto:hendy@hendyirawan.com)>
+* **SKS:** 3 SKS kuliah + 1 SKS praktikum
+   * 14 minggu, masing-masing:
+      * Kelas: 3 x 50 menit
+      * Praktikum: 100 menit (10 minggu)
+      * Tugas: 1 x 50 menit
 * **Butuh bantuan?**
    * Lihat [issues](https://github.com/struktur-data/syllabus/issues) yang ada atau buat _issue_ baru
    * Email [danangjunaedi@telkomuniversity.ac.id](mailto:danangjunaedi@telkomuniversity.ac.id) / [hendy@hendyirawan.com](mailto:hendy@hendyirawan.com) untuk diskusi/konsultasi atau bertemu langsung
@@ -24,9 +29,9 @@ Pada mata kuliah ini diajarkan berbagai macam struktur data yang dapat diimpleme
 
 ## Capaian Pembelajaran
 
-1.	Mahasiswa mampu membangun algoritma untuk primitif struktur data Linked List dan mengimplementasikannya dalam Bahasa Pemrograman.
-2.	Mahasiswa mampu membangun algoritma untuk primitif struktur data Stack dan Queue, serta mengimplementasikannya dalam Bahasa Pemrograman.
-3.	Mahasiswa mampu membangun algoritma untuk primitif struktur data non-linear Linked List, Graph dan Tree, serta mengimplementasikannya dalam Bahasa Pemrograman
+1.	CLO1: Mahasiswa mampu membangun algoritma untuk primitif struktur data Linked List dan mengimplementasikannya dalam Bahasa Pemrograman.
+2.	CLO2: Mahasiswa mampu membangun algoritma untuk primitif struktur data Stack dan Queue, serta mengimplementasikannya dalam Bahasa Pemrograman.
+3.	CLO3: Mahasiswa mampu membangun algoritma untuk primitif struktur data non-linear Linked List, Graph dan Tree, serta mengimplementasikannya dalam Bahasa Pemrograman
 
 ## Prasyarat
 
@@ -455,6 +460,18 @@ Kapan pun Anda membutuhkannya, silakan manfaatkan referensi berikut...
 * UAS - 35%
 * Tugas - 25%
 * Praktikum – 15%
+
+## Distribusi Nilai
+
+| Indeks | Rentang        |
+|--------|----------------|
+| A      | >= 80.01       |
+| AB     | 80.01 .. 80.00 |
+| B      | 65.01 .. 70.00 |
+| BC     | 60.01 .. 65.00 |
+| C      | 50.01 .. 60.00 |
+| D      | 40.01 .. 50.00 |
+| E      | <= 40.00       |
 
 ## Plagiarisme
 
