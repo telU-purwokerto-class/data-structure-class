@@ -3,336 +3,442 @@ layout: default
 permalink: /
 ---
 
-# <img src="assets/logo.svg" alt="class logo" class="logo"/> Advanced JavaScript syllabus
+# Silabus Struktur Data
 
-***If you are a teacher or interested in the design of the course, see the [meta](https://github.com/advanced-js/syllabus/blob/gh-pages/meta.md) document.***
+***Bila Anda guru/dosen atau tertarik dengan desain mata kuliah ini, silakan lihat dokumen [meta](https://github.com/struktur-data/syllabus/blob/gh-pages/meta.md).***
 
-* **Course:** [INFO1-CE9766, NYU SCPS](http://scps.nyu.edu/content/scps/academics/course_detail.html?id=INFO1-CE9766)
-* **Instructor:** Aidan Feldman, [alf9@nyu.edu](mailto:alf9@nyu.edu)
-* **Need help?**
-    * [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/advanced-js/syllabus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-        * It sends message digests to people who aren't active in the room, so feel free to ask a question even if no one's around.
-    * Look through and create [issues](https://github.com/advanced-js/syllabus/issues)
-    * Office Hours during [Hacker Hours](http://hackerhours.org/) (see [schedule](http://www.meetup.com/hackerhours/events/calendar/))
-   * [Email](mailto:alf9@nyu.edu) for 1-on-1 help, or to set up a time to meet
+* **Mata Kuliah:** [ITH1B4, Telkom University](http://bit.telkomuniversity.ac.id/?page_id=242)
+* **Dosen:** Danang Junaedi, Hendy Irawan <[hendy@hendyirawan.com](mailto:hendy@hendyirawan.com)>
+* **Butuh bantuan?**
+   * Lihat dan buat [issues](https://github.com/struktur-data/syllabus/issues)
+   * [Email hendy@hendyirawan.com](mailto:hendy@hendyirawan.com) untuk diskusi/konsultasi atau bertemu langsung
 
-## Course Description
+## Deskripsi Mata Kuliah
 
-Learn best practices in JavaScript in this intensive, five-session course. Topics include data encapsulation, closures, binding, inheritance, and name spacing. Discover some of the lesser-known, yet useful, features of the language, such as how to debug JavaScript problems on different browsers and improve performance. Create interactive webpages using third-party JavaScript libraries.
+Pada mata kuliah ini diajarkan berbagai macam struktur data yang dapat diimplementasikan dalam program komputer, serta bagaimana memilih struktur data yang tepat untuk suatu kasus tertentu. Materi yang diajarkan meliputi:
 
-Computers are provided in the lab, though you are encouraged to bring a laptop for in-class exercises.
+1. Abstract Data Type (ADT);
+2. representasi struktur data linier dan primitif-primitifnya (array, linked list, variasi linked list, stack, queue);
+3. representasi struktur data non-linier dan primitif-primitifnya (tree, graph, multilist); dan
+4. algoritma penelusuran (preorder, inorder, postorder) dan pencarian (BFS, DFS).
 
-## Prerequisites
+## Capaian Pembelajaran
 
-* [INFO1-CE9755 - JavaScript](http://scps.nyu.edu/content/scps/academics/course_detail.html?id=INFO1-CE9755) ([syllabus](http://samsultan.com/javascript)) or equivalent
-* Understanding of variables, data types, control flow, and basic function usage in JavaScript
-* Strong intermediate knowledge of HTML, and at least basics of CSS
-* Basic jQuery knowledge (DOM interaction like adding/removing elements/classes, etc.)
+1.	Mahasiswa mampu membangun algoritma untuk primitif struktur data Linked List dan mengimplementasikannya dalam Bahasa Pemrograman.
+2.	Mahasiswa mampu membangun algoritma untuk primitif struktur data Stack dan Queue, serta mengimplementasikannya dalam Bahasa Pemrograman.
+3.	Mahasiswa mampu membangun algoritma untuk primitif struktur data non-linear Linked List, Graph dan Tree, serta mengimplementasikannya dalam Bahasa Pemrograman
 
-These won't be enforced by the instructor, but you will be pretty lost without understanding those concepts. If you need a refresher, take a look at the [Beginner Materials](#beginner-materials).
+## Prasyarat
 
-## Course Overview
+* Matakuliah syarat: Dasar Algoritma dan Pemrograman.
+* Pemahaman variabel, tipe data, alur kendali, dan penggunaan fungsi dasar di C++
+* Komputer dengan OS Windows 7 (atau lebih baru) 32-bit/64-bit, RAM minimal 2 GB
 
-We will dive into the nuances of JavaScript, how prototypal inheritance compares to classical inheritance, and how this can be used to build dynamic and complex web applications.  Modern tools like jQuery and BackboneJS will be discussed, but students will learn the building blocks of these frameworks and after this course be able to understand what is happening under the hood.  The focus will be on development for browsers, though most applies to other systems like Node.js, Phonegap, etc.  Topics covered include:
+Bila penguasaan Anda dirasa kurang untuk konsep-konsep tersebut, disarankan untuk mereview kembali. Materi-materi prasyarat dapat dilihat di bagian [Materi Pemula](#materi-pemula).
 
-* Encapsulation, closures and scope
-* Classical vs. prototypal inheritance
-* The event loop
-* AJAX and JSONP
-    * local
-    * remote (e.g. Foursquare)
-* Creating MVC-style models (a'la Backbone.js) from scratch
-* Test- and Pseudocode-Driven Development
+## Bahan Kajian / Pokok Bahasan
 
-Topics will be demonstrated through live-code examples/slides, available at [advanced-js.github.io/deck](http://advanced-js.github.io/deck/).  Additional exercises will completed in-class.
+Adapun bahan kajian atau pokok bahasannya adalah:
 
-See [this interview](https://web.archive.org/web/20140306162909/http://blog.masterstreet.com/2013/09/05/interview-with-aidan-feldman-instructor-at-nyu-scps/) for more background.
+* Linear Linked List (termasuk Stack dan Queue)
+* Circular Linked List
+* Double Linked List
+* Non Linear Linked List (termasuk Tree dan Graph)
 
-## Homework/Projects
+Kajian akan didemonstrasikan menggunakan contoh live-code maupun slides yang tersedia di (TODO). Latihan lebih lanjut akan dikerjakan dalam praktikum.
 
-All assignments are listed within the [Course Outline](#course-outline).
+## Tugas
+
+Semua tugas dapat dilihat di bagian [Kerangka Mata Kuliah](#kerangka-mata-kuliah).
 
 ### Workflow
 
-If you're using GitHub Desktop, these general instructions will help:
+Bila Anda menggunakan GitHub Desktop, panduan umum berikut dapat membantu Anda:
 
 * <https://guides.github.com/activities/forking/>
 * <https://help.github.com/desktop/guides/contributing/>
 
-Enabling `Edit`->`Automatically Sync after Committing` is recommended. Here are the steps:
+Disarankan untuk menyalakan `Edit`->`Automatically Sync after Committing`. Langkah-langkahnya sebagai berikut:
 
-1. Fork the repository for the exercise/project (found under [github.com/advanced-js](https://github.com/advanced-js)).
-1. Clone the repository to your computer.
-1. Open the `index.html` file in a browser and open the Developer Tools.
-1. Modify the files to complete your solution.
-1. Refresh the `index.html` page to see the results, and repeat.
-1. Make sure all of your code is committed.
-1. Push/sync up to GitHub.
-1. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/) on the original repository. All assignments are due at the start of the following class, unless otherwise specified.
-1. You can continue to push fixes and improvements until the close date (listed in Classes) – just add a comment in the pull request to let me know it's been updated.
+1. Lakukan _Fork_ pada _repository_ latihan yang Anda inginkan (daftar _repository_ dapat dilihat di [github.com/struktur-data](https://github.com/struktur-data)).
+1. _Clone repository_ tersebut ke komputer Anda.
+1. Buka file utama (`*.cpp`) menggunakan Code::Blocks.
+1. Ubah program untuk menyelesaikan solusi Anda.
+1. Jalankan program maupun gunakan fungsi _debugging_. Ulangi hingga sesuai harapan Anda.
+1. Pastikan semua kode Anda sudah di-_commit_.
+1. _Push/sync_ ke GitHub.
+1. [Buat _pull request_](https://help.github.com/articles/creating-a-pull-request/) pada _repository_ induk. Setiap tugas memiliki jadwal _deadline_ yang sudah ditentukan.
+1. Anda tetap dapat mengirim perbaikan dan penyempurnaan sampai waktu pengirim tugas ditutup - silakan tambahkan komentar pada _pull request_ untuk memberitahu bahwa Anda telah memperbaruinya.
 
-When the pull request is created, you should see a message saying that "the Travis CI build is in progress" – this means that your solution is being automatically checked for syntax errors.  If this "build" ends up failing (which will show a red "X"), click through the "details" link and scroll to the bottom to see what the errors were.  Per the [requirements](#requirements) below, please fix the issues and push up the changes.
+Saat _pull request_ dibuat, Anda akan menerima pesan bahwa "the Travis CI build is in progress" – ini berarti solusi Anda sedang diperiksa secara otomatis untuk kesalahan sintaks/kompilasi. Bila "build" gagal (menampilkan icon "X" merah), klik pranala "details" dan _scroll_ ke bagian bawah untuk melihat apa saja kesalahannya. Sesuai dengan [Ketentuan](#ketentuan) di bawah, silakan memperbaiki kesalahan dan kirimkan perubahan Anda.
 
-Feedback will be given in the pull request, so please respond with your thoughts and questions!  You are welcome to open the pull request early as a work-in-progress if you are stuck and want to ask a question.  Note that your solution will also be live at `http://USERNAME.github.io/EXERCISE`.
+Tanggapan akan diberikan pada _pull request_ Anda, jadi silakan ya membalas dengan uneg-uneg dan pertanyaan Anda! Anda dipersilakan untuk mengirimkan _pull request_ lebih awal sebagai "work-in-progress" bila Anda merasa buntu dan ingin menanyakan suatu hal. Perhatikan bahwa solusi Anda juga akan dapat diakses publik di alamat `http://USERNAME.github.io/TUGAS`.
 
-#### Versions
+#### Versi
 
-For exercises with multiple Versions (`V1`, `V2`, etc.) listed in the README: these are intended as guidelines for how to complete the assignments in the smallest/simplest possible increments.  You are expected to reach the highest Version for each assignment by the due date. See also: [extra credit](#extra-credit).
+Untuk tugas dengan beberapa Versi (`V1`, `V2`, dll.) yang dicantumkan dalam README: Versi tersebut dapat dijadikan panduan bagaimana mengerjakan tugas-tugas tersebut dalam langkah-langkah kecil. Pastikan Anda telah mencapai Versi tertinggi pada tanggal _deadline_. Lihat juga: [Bonus](#bonus).
 
-### Requirements
+### Ketentuan
 
-These apply to real life, as well.
+Ketentuan berikut juga berlaku di dunia nyata, lho.
 
-* [Travis CI](https://docs.travis-ci.com/) build should pass, which includes:
-    * All HTML files should pass [W3C Markup Validation](http://validator.w3.org).
-    * All written JS should pass [JSHint](http://jshint.com).
-* Must apply "good programming style" learned in class
-    * Functions should be "short" (see [Sandi Metz's rules for developers](https://robots.thoughtbot.com/sandi-metz-rules-for-developers)).
-    * Optimize for readability.
+* [Travis CI](https://docs.travis-ci.com/) _build_ harus berhasil, antara lain:
+    * File kode dapat dikompilasi dengan baik (tools yang digunakan adalah CMake 3.2.2 dan GCC).
+    * Program dapat dieksekusi.
+* Terapkan "good programming style" yang Anda pelajari di kelas
+    * Pastikan program mudah dibaca.
         * ["Programs must be written for people to read, and only incidentally for machines to execute." -Harold Abelson](https://www.goodreads.com/quotes/9168-programs-must-be-written-for-people-to-read-and-only)
-    * Avoid using anonymous callbacks within other functions, especially if the callback is more than one or two lines.
-    * For projects, use Object-Oriented Programming.
-* Any borrowed code must be properly [annotated](#instructor).
+    * Pedoman lengkap penulisan kode C++ dapat dilihat di [C++ Core Guidelines](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
+* Setiap kode yang Anda ambil dari sumber lain harus Anda cantumkan atribusi, lihat: [Plagiarisme](#plagiarisme).
 
-#### Extra Credit
+#### Bonus
 
-Bonus points for:
+Nilai plus akan diberikan untuk:
 
-* Automated tests
-* Creativity (as long as requirements are fulfilled)
-* Anything listed under `BONUS` in the README of the exercise.
+* Tes otomatis (misalnya menggunakan [Google Test](https://github.com/google/googletest))
+* Kreativitas (syarat utama tugas tetap harus terpenuhi)
+* Tugas tertentu mencantumkan bagian `BONUS` di file README.
 
-## Course Outline
+## Kerangka Mata Kuliah
 
-### Class 1
+### Minggu ke-1
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Are you new to front-end web development? Here&#39;s a secret: no one else really knows what they&#39;re doing either.</p>&mdash; Nicolas (@necolas) <a href="https://twitter.com/necolas/status/291978260433219584">January 17, 2013</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+Sesi ke-1:
 
-1. Introduction
-    * Put name on sticky note on back of monitor
-    * Discuss what the class is going to cover
-    * Everyone introduce themselves
-        * Name
-        * What you "do"
-        * What are your goals for the class?
-        * What's something in JS (or technology) you worry that your peers understand but you don't?
+1. Pendahuluan
+    * Perkenalan dosen
+    * Diskusi tentang lingkup mata kuliah ini
+    * Perkenalan masing-masing mahasiswa
+        * Nama
+        * Apa yang Anda "lakukan"?
+        * Apa yang ingin Anda raih dalam mata kuliah ini?
+        * Hal apa dalam pemrograman/algoritma (atau teknologi apa pun) yang Anda masih khawatir atau merasa kurang?
 1. Setup
-    * How many people are comfortable with Git/GitHub?
-    * Install [GitHub Desktop](https://desktop.github.com/)
-        * If you are comfortable with Git already, you can skip this.
-    * Sign up for GitHub
+    * Berapa mahasiswa yang familiar dengan Git/GitHub?
+    * Pasang [GitHub Desktop](https://desktop.github.com/)
+        * Bila Anda sudah familiar dengan Git, silakan lewati bagian ini.
+    * Daftar akun [GitHub](https://github.com/)
 1. GitHub workflow
-    * Walk through [workflow](#workflow)
-    * Create pull request on [students repository](https://github.com/advanced-js/students)
-1. Explain how slides work
-1. Get through `countdown_exercise` slide
-1. Talk through [requirements](#requirements)
+    * Penjelasan [workflow](#workflow)
+    * Buat _pull request_ di [students repository](https://github.com/struktur-data/students)
+1. Slide awal: TODO
+1. Penjelasan [ketentuan](#ketentuan)
 
-#### Homework
+Sesi ke-2:
 
-* Join [the chat room](https://gitter.im/advanced-js/syllabus).
-* [Set up your GitHub profile.](https://github.com/settings/profile)
-* Access [NYU Classes](https://newclasses.nyu.edu) page, where grades will be posted.
-    * [Documentation](https://wikis.nyu.edu/display/nyuclasses/Student+Quick-Start)
-* Read [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/).
-* Finish up and submit [echo](https://github.com/advanced-js/echo) and [countdown](https://github.com/advanced-js/countdown) exercises.
-* Complete [blink](https://github.com/advanced-js/blink) exercise.
+1. Materi: Pengertian dan kegunaan Abstrak Data Type, Pointer
 
-### Class 2
+#### Tugas
 
-1. Look at various approaches for `countdown()`
-    * Show recursive solution
-1. Developer Tools walkthrough
-    * Elements (HTML)
-    * Console (JS)
-    * Scripts (JS)
-1. Pair program to build [Memory v1](https://github.com/advanced-js/memory) (see [pairing tips](#pairing-tips))
-1. Cover OOP, though "oop_inheritance" slide
-    * [Encapsulation example](http://jsbin.com/baqopu/1/edit?css,js,output)
-    * Look at [Backbone.js Events](http://backbonejs.org/docs/backbone.html)
+* Bergabung dengan grup WhatsApp. Pranala akan diberikan saat sesi kuliah.
+* [Lengkapi profil GitHub Anda.](https://github.com/settings/profile)
+* Mendaftar paket [GitHub Student Developer Pack](https://education.github.com/pack)
+* Pasang [Code::Blocks](http://www.codeblocks.org/downloads/26)
+   * Untuk Windows, gunakan varian **mingw-setup**.
+* TODO: Kerjakan tugas pendahuluan.
 
-#### Homework
+### Minggu ke-2
 
-* Read [Mozilla's Introduction to Object-Oriented Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
-* [OOP exercise](https://github.com/advanced-js/oop), through V2
-* [Memory v2](https://github.com/advanced-js/memory#v2) (individual)
+Sesi ke-1:
 
-### Class 3
+* Pengertian dan Algoritma Linear List
 
-1. Code review Memory
-1. Get through [`oop_inheritance`](http://advanced-js.github.io/deck/examples/oop_inheritance/) slide
-1. Cover automated testing
-    * Build up a test framework from scratch
-    * Examples in QUnit
-        * [Simple](http://jsbin.com/woqusi/edit?html,js,output)
-        * [Classes](http://jsbin.com/nukamun/edit?js,output)
-        * [QUnit documentation](http://qunitjs.com/)
-    * Other frameworks
-1. Cover AJAX/CORS/JSONP ([files](https://github.com/advanced-js/deck/tree/gh-pages/demos/ajax))
-    * Network tab in Developer Tools
+Sesi ke-2:
 
-#### Homework
+* Pengertian dan Algoritma Linear List
 
-* Read [Google JavaScript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
-* Complete [OOP exercise](https://github.com/advanced-js/oop) through V4.
-* [Memory V3](https://github.com/advanced-js/memory#v3)
+#### Tugas
 
-### Class 4
+* TODO
 
-1. Finish slides
-1. Getting Serious example
-    * Quick intro to Backbone.js
-        * [Boilerplate](http://jsbin.com/IGivato/1/edit?html,js,output)
-        * Click the Box [example app](http://jsbin.com/IGivato/5/edit?css,js,output)
-        * TDD?
-1. Multiple async
-    * [Promises](https://github.com/advanced-js/deck/tree/gh-pages/demos/ajax/promises)/[jQuery.Deferred](http://api.jquery.com/jQuery.Deferred/)
-    * Possibly show [async](https://github.com/caolan/async#control-flow-1) library?
+### Minggu ke-3
 
-#### Homework
+Sesi ke-1:
 
-* [Learn about AJAX](https://github.com/advanced-js/deck/tree/gh-pages/demos/ajax#readme)
-* [Mashup](https://github.com/advanced-js/mashup)
-* Improve your previous assignments
+* Implementasi Algoritma Linear List pada bahasa pemrograman C++
 
-### Class 5
+Sesi ke-2:
 
-1. Present and code review Mashup projects
-1. Possible topics (vote?):
-    * Node.js
-        * Server "Hello World" (from [Node.js homepage](http://nodejs.org/))
-            * [HTTP module docs](http://nodejs.org/api/http.html)
-        * HTTP requests
-            * [Status codes](http://pretty-rfc.herokuapp.com/RFC2616#status.codes)
-            * Headers
-        * CommonJS?
-    * [Regular Expressions](https://github.com/advanced-js/deck/tree/gh-pages/demos/regex.html)
-        * Convert live input from a text area, e.g.
-            * Link Twitter handles
-            * Substitute select words for emoji, using [emoji-css](http://afeld.github.io/emoji-css/)
-    * Object-Oriented design
-    * [Code Retreat](http://coderetreat.org/facilitating/structure-of-a-coderetreat) – possible "problems":
-        * [Game of Life](http://coderetreat.org/gol)
-        * Tic Tac Toe
+* Implementasi Algoritma Linear List pada bahasa pemrograman C++
 
-## Pairing Tips
+Tugas:
 
-* Three people is possible, but two works best
-* Agree on an editor and environment that you're both comfortable with
-* The person who's less experienced/comfortable should have more keyboard time
-* Switch who's "driving" regularly
-* Make sure to save the code and send it to both people
+* TODO
 
-## Resources
+Praktikum:
 
-### Required Reading
+* TODO
 
-* [Google JavaScript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
-* [JavaScript Garden](http://bonsaiden.github.com/JavaScript-Garden/)
-* [Mozilla's Introduction to Object-Oriented Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
-* [What’s so great about JavaScript Promises?](http://blog.parse.com/learn/engineering/whats-so-great-about-javascript-promises/)
+### Minggu ke-4
 
-### Beginner Materials
+Sesi ke-1:
 
-This class assumes you are confident with this material, but in case you need a brush-up...
+* Implementasi Algoritma Linear List pada bahasa pemrograman C++
 
-* Codecademy – [JavaScript](https://www.codecademy.com/learn/javascript) and [jQuery](https://www.codecademy.com/learn/jquery)
-* [Eloquent JavaScript](http://eloquentjavascript.net/index.html) by Marijn Haverbeke, Chapters 1-5
-* [Want to learn JavaScript in 2015?](https://medium.com/@_cmdv_/i-want-to-learn-javascript-in-2015-e96cd85ad225)
-* [How jQuery Works](https://learn.jquery.com/about-jquery/how-jquery-works/)
-* see also – [Other Lists](#other-lists)
+Sesi ke-2:
 
-### Recommended Reading
+* Implementasi Algoritma Linear List pada bahasa pemrograman C++
 
-* [Functional JavaScript](http://shop.oreilly.com/product/0636920028857.do) by Michael Fogus
-* [Front-end Job Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) by @darcyclarke (for testing yourself)
-* [JavaScript Best Practices](http://www.thinkful.com/learn/javascript-best-practices-1/)
-* [JavaScript Patterns](http://shichuan.github.io/javascript-patterns/) by @shichuan (thanks @iandrewfuchs)
-* [JavaScript Patterns](http://www.amazon.com/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752) by Stoyan Stephanov
-* [JavaScript Web Applications](http://www.amazon.com/JavaScript-Web-Applications-Alex-MacCaw/dp/144930351X/) by Alex MacCaw
-* [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742) by Douglas Crockford
-* [Learning Advanced JavaScript slides](http://ejohn.org/apps/learn/) by John Resig
-* [Static Web Apps](http://www.staticapps.org/)
-* [Test-Driven JavaScript Development](http://www.amazon.com/Test-Driven-JavaScript-Development-Developers-Library/dp/0321683919) by Christian Johansen
-* [The JavaScript Interpreter, Interpreted](http://www.slideshare.net/marthakelly/js-interpreter-interpreted) by Martha Girdler [(video)](https://www.youtube.com/watch?v=iSxNCYcPAFk)
+Tugas:
 
-#### Specific Topics
+* TODO
 
-* [Classical Inheritance in JavaScript](http://www.crockford.com/javascript/inheritance.html) by Douglas Crockford
-* [Partial Application in JavaScript](http://benalman.com/news/2012/09/partial-application-in-javascript/) by Ben Alman (thanks @michaelBenin)
-* [HTML5 Rocks](http://www.html5rocks.com)
-* [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/) by Addy Osmani
+Praktikum:
 
-#### Other Lists
+* Implementasi Algoritma Linear List pada bahasa pemrograman C++
 
-* [JS: The Right Way](http://www.jstherightway.org/) (an overview of the JS landscape)
-* [Code School](https://www.codeschool.com/paths/javascript)
-* Thoughtbot's [Javascript Trail Map](https://upcase.com/javascript)
-* [How To Learn JavaScript Properly](http://javascriptissexy.com/how-to-learn-javascript-properly/)
-* [Superhero.js](http://superherojs.com)
-* [Teach Yourself to Code](http://teachyourselftocode.com/javascript)
+### Minggu ke-5
 
-### Tools
+Sesi ke-1:
 
-* code validation: [JSLint](http://jslint.com) / [JSHint](http://jshint.com)
-* debugging:
-    * [Chrome Developer Tools](https://developer.chrome.com/devtools/index)
-        * [Official debugging tutorial](https://developer.chrome.com/extensions/tut_debugging)
-        * Tutorial: [JavaScript Diagnosis](http://www.macwright.org/2015/03/10/javascript-diagnosis.html)
-    * [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
-* sharing code snippets: [gist.github.com](https://gist.github.com/)
-* asking questions: [Stack Overflow](http://stackoverflow.com/)
+* Pengertian dan Algoritma Double List
 
-#### GitHub
+Sesi ke-2:
+
+* Implementasi Algoritma Double List pada bahasa pemrograman C++
+
+Tugas:
+
+* TODO
+
+Praktikum:
+
+* Implementasi Algoritma Double List pada bahasa pemrograman C++
+
+### Minggu ke-6
+
+Sesi ke-1:
+
+* Pengertian dan Algoritma Circular List
+* Implementasi Algoritma Circular List pada bahasa pemrograman C++
+
+Sesi ke-2:
+
+* Implementasi Algoritma Circular List pada suatu kasus
+
+Tugas:
+
+* TODO
+
+Praktikum:
+
+* Implementasi Algoritma Circular List pada bahasa pemrograman C++
+* Implementasi Algoritma Circular List pada suatu kasus
+
+### Minggu ke-7
+
+Sesi ke-1:
+
+* Pengertian dan Algoritma Linked List with Last
+* Implementasi Algoritma Linked List with Last pada bahasa pemrograman C++
+
+Sesi ke-2:
+
+* Implementasi Algoritma Linked List with Last pada suatu kasus
+
+Tugas:
+
+* TODO
+
+Praktikum:
+
+* Implementasi Algoritma Linked List with Last pada bahasa pemrograman C++
+* Implementasi Algoritma Linked List with Last pada suatu kasus
+
+### Ujian Tengah Semester
+
+Materi ujian:
+
+1. Linear List
+2. Double List
+3. Circular List
+
+### Minggu ke-8
+
+Sesi ke-1:
+
+* Pengertian dan Algoritma Stack menggunakan Array
+
+Sesi ke-2:
+
+* Implementasi algoritma Stack pada bahasa pemrograman C++
+
+Tugas:
+
+* TODO
+
+Praktikum:
+
+* Implementasi algoritma Stack pada bahasa pemrograman C++
+
+### Minggu ke-9
+
+Sesi ke-1:
+
+* Pengertian dan Algoritma Queue menggunakan Array
+
+Sesi ke-2:
+
+* Implementasi algoritma Queue pada bahasa pemrograman C++
+
+Tugas:
+
+* TODO
+
+### Minggu ke-10
+
+Sesi ke-1:
+
+* Implementasi algoritma Queue pada bahasa pemrograman C++
+
+Sesi ke-2:
+
+* Implementasi algoritma Queue pada bahasa pemrograman C++
+
+Tugas:
+
+* TODO
+
+Praktikum:
+
+* Implementasi algoritma Queue pada bahasa pemrograman C++
+
+### Minggu ke-11
+
+Sesi ke-1:
+
+* Review algoritma rekursif
+
+Sesi ke-2:
+
+* Pengertian Tree beserta implementasi algoritma penelusurannya (preorder, inorder, postorder)
+
+Tugas:
+
+* TODO
+
+### Minggu ke-12
+
+Sesi ke-1:
+
+* Pengertian dan Algoritma Binary Search Tree 
+* Implementasi Algoritma Binary Search Tree pada bahasa pemrograman C++
+
+Sesi ke-2:
+
+* Implementasi Binary Search Tree pada suatu kasus
+
+Tugas:
+
+* TODO
+
+Praktikum:
+
+* Implementasi Algoritma Binary Search Tree pada bahasa pemrograman C++
+
+### Minggu ke-13
+
+Sesi ke-1:
+
+* Pengertian dan Algoritma Graph
+
+Sesi ke-2:
+
+* Pengertian dan implementasi algoritma penelusuran Graf (BFS dan DFS)
+
+Tugas:
+
+* TODO
+
+### Minggu ke-14
+
+Sesi ke-1:
+
+* Implementasi Algoritma Graph pada bahasa pemrograman C++
+
+Sesi ke-2:
+
+* Implementasi Graph pada suatu kasus
+
+Tugas:
+
+* TODO
+
+Praktikum:
+
+* Implementasi Algoritma Graph pada bahasa pemrograman C++
+* Implementasi Graph pada suatu kasus
+
+## Tips Tugas Kelompok
+
+* Kelompok maksimal dua orang
+* Tentukan editor/IDE dan lingkungan yang nyaman bagi kalian
+* Anggota dengan pengalaman lebih sedikit sebaiknya mendapat porsi pengerjaan lebih intensif
+* Bergantian dalam mengerjakan
+* Sering-seringlah menyimpan kode dan melakukan _commit & push/sync_
+
+## Pustaka
+
+### Utama
+
+* Diktat Kuliah IF2181 Struktur Data, Inggriani Liem, ITB, 2003.
+
+###	Pendukung
+
+* Standish, Thomas A. [Data Structures, Algorithms, & Software Principles in C](http://openlibrary.telkomuniversity.ac.id/home/catalog/id/36466/slug/data-structures-algorithms-software-principles-in-c.html). Addison wesley Publishing Company 1995.
+* AHO, Alfred V., John E. Hopcroft, Jeffrey D. Ullman. [Data Structures and Algorithm](http://openlibrary.telkomuniversity.ac.id/home/catalog/id/34600/slug/data-structures-and-algorithms.html). Addison Wesley Publishing Company. 1987.
+
+### Tools Utama
+
+* C/C++ Compiler dan IDE: [Code::Blocks](www.codeblocks.org) (termasuk GCC/G++ compiler dan GDB debugger dari [TDM-GCC](http://tdm-gcc.tdragon.net/))
+   * Alternatif: [Eclipse](https://www.eclipse.org/) + GCC/G++ compiler dan GDB debugger dari [TDM-GCC](http://tdm-gcc.tdragon.net/)
+
+### Tools Pendukung
+
+* C/C++ build system: [CMake](http://www.cmake.org)
+* unit testing: [Google Test](https://github.com/google/googletest)
+* berbagi kode: [gist.github.com](https://gist.github.com/)
+* tanya jawab: [Stack Overflow](http://stackoverflow.com/)
+
+### GitHub
 
 * Git and GitHub
     * [Official GitHub Help](https://help.github.com/)
     * [Recommended resources](http://hackerhours.org/resources.html#github)
-* GitHub Pages
-    * [Official site](https://pages.github.com/)
-    * [Thinkful guide](http://www.thinkful.com/learn/a-guide-to-using-github-pages/)
+    * [Student Developer Pack](https://education.github.com/pack)
+* [Download Git](https://git-scm.com/downloads)
+* GUI Clients: [TortoiseGit](https://tortoisegit.org/), [SourceTree](https://www.sourcetreeapp.com/), [GitHub Desktop](https://desktop.github.com/), GitKraken]()
 
-#### HTML/CSS/JS Sandboxes
+### Latihan Soal
 
-* [JS Bin](http://jsbin.com/) (recommended)
-* [bl.ocks.org](http://bl.ocks.org/)
-* [Cloud9](https://c9.io/)
-* [CodePen](http://codepen.io/pen/)
-* [JSFiddle](http://jsfiddle.net/)
-* [Mozilla Thimble](https://thimble.mozilla.org)
-* [Plunker](http://plnkr.co/)
-* [rawgithub.com](http://rawgit.com/)
+* [Data Structures Challenges - HackerRank](https://www.hackerrank.com/domains/data-structures)
+   * [Arrays Challenges - HackerRank](https://www.hackerrank.com/domains/data-structures/arrays)
+   * [Linked Lists Challenges - HackerRank](https://www.hackerrank.com/domains/data-structures/linked-lists)
+   * [Stacks Challenges - HackerRank](https://www.hackerrank.com/domains/data-structures/stacks)
+   * [Queues Challenges - HackerRank](https://www.hackerrank.com/domains/data-structures/queues)
+   * [Trees Challenges - HackerRank](https://www.hackerrank.com/domains/data-structures/trees)
+   * [Components in a graph - HackerRank](https://www.hackerrank.com/challenges/components-in-graph/problem)
+* [Data Structures Problems - HackerEarth](https://www.hackerearth.com/practice/data-structures/)
+   * [Arrays 1-D](https://www.hackerearth.com/practice/data-structures/arrays/1-d/tutorial/)
+   * [Singly Linked List](https://www.hackerearth.com/practice/data-structures/linked-list/singly-linked-list/practice-problems/)
+   * [Stacks](https://www.hackerearth.com/practice/data-structures/stacks/basics-of-stacks/)
+   * [Queues](https://www.hackerearth.com/practice/data-structures/queues/basics-of-queues/)
+   * [Binary Search Tree](https://www.hackerearth.com/practice/data-structures/trees/binary-search-tree/practice-problems/)
+* [CodeChef](https://www.codechef.com/)
 
-#### Frameworks
+## Pembobotan Nilai
 
-* Framework comparison: [TodoMVC](http://todomvc.com)
-* [Testing](https://coderwall.com/p/ntbixw)
+* UTS – 25%
+* UAS - 35%
+* Tugas - 25%
+* Praktikum – 15%
 
-### Reference
+## Plagiarisme
 
-* [Mozilla Developer Network](https://developer.mozilla.org/en/JavaScript) and [Learn JavaScript](https://developer.mozilla.org/en-US/learn/javascript)
-* [w3schools](http://www.w3schools.com/jsref/default.asp)
-* [JavaScript: The Definitive Guide](http://shop.oreilly.com/product/9780596000486.do) by David Flanagan
-* [Simplified JavaScript Jargon](http://jargon.js.org/)
+Bagi yang melakukan kecurangan/plagiarism nilainya akan diturunkan sesuai dengan tingkat plagiarismenya.
 
-### More Examples
+Dimohon menghargai ketentuan penggunaan dan/atau lisensi dari kode apa pun yang Anda temukan, dan apabila Anda mengimplementasikan atau menduplikasi sebuah algoritma atau kode dari sumber lain, cantumkan kredit/atribusi ke sumber berbentuk komentar dalam kode.
 
-* [map/reduce](http://jsbin.com/ojapAsUR/2/edit?js) (in [Underscore](http://underscorejs.org/#map))
+## Ucapan Terima Kasih
 
-## Grading
-
-* Class Participation – 30%
-* Homework – 70%
-
-## Statements on Plagiarism
-
-### SCPS
-
-> New York University takes plagiarism very seriously and regards it as a form of fraud.  The definition of plagiarism that has been adopted by the School of Continuing and Professional Studies is as follows: "Plagiarism is presenting someone else's work as though it were one's own.  More specifically, plagiarism is to present as one's own words quoted without quotation marks from another writer; a paraphrased passage from another writer’s work; or facts or ideas gathered, organized, and reported by someone else, orally and/or in writing.  Since plagiarism is a matter of fact, not of the student's intention, it is crucial that acknowledgement of the sources be accurate and complete.  Even where there is not a conscious intention to deceive, the failure to make appropriate acknowledgement constitutes plagiarism.  Penalties for plagiarism range from failure for a paper or course to dismissal from the University.
-
-### Instructor
-
-Reuse and building upon ideas or code are major parts of modern software development.  As a professional programmer you will never write anything from scratch.  This class is structured such that all solutions are public.  You are encouraged to learn from the work of your peers.  I won't hunt down people who are simply copying-and-pasting solutions, because without challenging themselves, they  are simply wasting their time and money taking this class.
-
-Please respect the terms of use and/or license of any code you find, and if you reimplement or duplicate an algorithm or code from elsewhere, credit the original source with an inline comment.
+Struktur mata kuliah dan pemanfaatan GitHub berdasarkan [Advanced JavaScript](https://github.com/advanced-js/syllabus) oleh Aidan Feldman.
