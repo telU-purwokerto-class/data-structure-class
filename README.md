@@ -424,7 +424,18 @@ Kapan pun Anda membutuhkannya, silakan manfaatkan referensi berikut...
 #### Tools Utama
 
 * C/C++ Compiler dan IDE: [Code::Blocks](http://www.codeblocks.org) (termasuk GCC/G++ compiler dan GDB debugger dari [TDM-GCC](http://tdm-gcc.tdragon.net/))
-   * Alternatif: [Eclipse](https://www.eclipse.org/) + GCC/G++ compiler dan GDB debugger dari [TDM-GCC](http://tdm-gcc.tdragon.net/)
+   * Alternatif: [Eclipse for C++ Development](https://www.eclipse.org/) + GCC/G++ compiler dan GDB debugger dari [TDM-GCC](http://tdm-gcc.tdragon.net/)
+
+      Bila menggunakan Eclipse di Windows, agar project dapat dieksekusi:
+
+      1. Klik kanan di _project_ > Properties
+      2. Pilih C/C++ Build:
+
+          Ganti _Build command_ menjadi: `mingw32-make`
+
+      3. Pilih C/C++ Build > Settings > Binary Parsers:
+
+         Centang: Windows PE
 
 #### Tools Pendukung
 
