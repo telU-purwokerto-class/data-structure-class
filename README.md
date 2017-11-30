@@ -153,7 +153,7 @@ Sesi ke-2:
 4. Pasang [Code::Blocks](http://www.codeblocks.org/downloads/26)
    * Untuk Windows, gunakan varian **mingw-setup**.
 5. TODO: Kerjakan tugas pendahuluan. Batas akhir pengumpulan: sehari sebelum sesi kuliah minggu ke-2.
-6. [Implementasi Linear Linked List](https:/struktur-data.github.io/syllabus/assignments/linear-linked-list). Batas akhir pengumpulan: Minggu-6 perkuliahan.
+6. [Implementasi Linear Linked List](https://struktur-data.github.io/syllabus/assignments/linear-linked-list). Batas akhir pengumpulan: Minggu-6 perkuliahan.
 
 ### Minggu ke-2
 
@@ -288,7 +288,7 @@ Praktikum:
 
 #### Tugas
 
-* TODO: Implementasi Priority Queue/Stack.
+1. [Implementasi Priority Queue/Stack](https://struktur-data.github.io/syllabus/assignments/priority-queue-stack).
    Batas akhir pengumpulan: Minggu-5 perkuliahan setelah UTS (minggu ke-12).
 
 ### Minggu ke-9
@@ -303,7 +303,7 @@ Sesi ke-2:
 
 #### Tugas
 
-* TODO: Implementasi Struktur Data Graf.
+1. [Implementasi Struktur Data Graf](https://struktur-data.github.io/syllabus/assignments/graph).
    Batas akhir pengumpulan: Minggu-6 perkuliahan setelah UTS (minggu ke-13).
 
 ### Minggu ke-10
