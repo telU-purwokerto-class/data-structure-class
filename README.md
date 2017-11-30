@@ -37,9 +37,19 @@ Pada mata kuliah ini diajarkan berbagai macam struktur data yang dapat diimpleme
 
 * Matakuliah syarat: Dasar Algoritma dan Pemrograman ([CCH1A4](http://dedetarwidi.staff.telkomuniversity.ac.id/lectures/dasar-algoritma-dan-pemrograman/)).
 * Pemahaman variabel, tipe data, alur kendali, dan penggunaan fungsi dasar di C++
-* Komputer dengan OS Windows 7 (atau lebih baru) 32-bit/64-bit, RAM minimal 2 GB
+* Memahami cara menggunakan fitur-fitur _debugging_: Debug / Continue, Run to cursor, Step over, Step into, Step out, Breakpoint, Local variables
 
 Bila penguasaan Anda dirasa kurang untuk konsep-konsep tersebut, disarankan untuk mereview kembali. Materi-materi prasyarat dapat dilihat di bagian [Materi Pemula](#materi-pemula).
+
+Spesifikasi komputer:
+
+* Komputer dengan OS Windows 7 ke atas, 32-bit/64-bit, RAM minimal 2 GB
+
+   Anda juga dapat menggunakan macOS maupun Linux, namun perlu penyesuaian _tools_ yang digunakan.
+
+Penguasaan _tools_ berikut sangat disarankan:
+
+* Git dan GitHub. Pengenalan Git dan GitHub akan dilakukan saat sesi kuliah. Silakan lihat bagian [GitHub](#github) untuk rujukan lebih lanjut.
 
 ## Bahan Kajian / Pokok Bahasan
 
@@ -451,7 +461,7 @@ Kapan pun Anda membutuhkannya, silakan manfaatkan referensi berikut...
     * [Recommended resources](http://hackerhours.org/resources.html#github)
     * [Student Developer Pack](https://education.github.com/pack)
 * [Download Git](https://git-scm.com/downloads)
-* GUI Clients: [TortoiseGit](https://tortoisegit.org/), [SourceTree](https://www.sourcetreeapp.com/), [GitHub Desktop](https://desktop.github.com/), GitKraken]()
+* GUI Clients: [TortoiseGit](https://tortoisegit.org/), [SourceTree](https://www.sourcetreeapp.com/), [GitHub Desktop](https://desktop.github.com/), [GitKraken](http://gitkraken.com/)
 
 ### Latihan Soal
 
