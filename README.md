@@ -5,7 +5,7 @@ permalink: /
 
 # Silabus Struktur Data
 
-***Bila Anda guru/dosen atau tertarik dengan desain mata kuliah ini, silakan lihat dokumen [meta](https:/struktur-data.github.io/syllabus/meta).***
+***Bila Anda guru/dosen atau tertarik dengan desain mata kuliah ini, silakan lihat dokumen [meta](https://struktur-data.github.io/syllabus/meta).***
 
 * **Mata Kuliah:** [ITH1B4, Telkom University](http://bit.telkomuniversity.ac.id/?page_id=242)
 * **Dosen:** Danang Junaedi <[danangjunaedi@telkomuniversity.ac.id](mailto:danangjunaedi@telkomuniversity.ac.id)>, Hendy Irawan <[hendy@hendyirawan.com](mailto:hendy@hendyirawan.com)>
