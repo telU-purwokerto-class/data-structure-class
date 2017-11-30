@@ -5,7 +5,7 @@ permalink: /
 
 # Silabus Struktur Data
 
-***Bila Anda guru/dosen atau tertarik dengan desain mata kuliah ini, silakan lihat dokumen [meta](https://github.com/struktur-data/syllabus/blob/gh-pages/meta.md).***
+***Bila Anda guru/dosen atau tertarik dengan desain mata kuliah ini, silakan lihat dokumen [meta](https:/struktur-data.github.io/syllabus/meta).***
 
 * **Mata Kuliah:** [ITH1B4, Telkom University](http://bit.telkomuniversity.ac.id/?page_id=242)
 * **Dosen:** Danang Junaedi <[danangjunaedi@telkomuniversity.ac.id](mailto:danangjunaedi@telkomuniversity.ac.id)>, Hendy Irawan <[hendy@hendyirawan.com](mailto:hendy@hendyirawan.com)>
@@ -147,13 +147,13 @@ Sesi ke-2:
 
 #### Tugas
 
-* Bergabung dengan grup WhatsApp. Pranala akan diberikan saat sesi kuliah.
-* [Lengkapi profil GitHub Anda.](https://github.com/settings/profile)
-* Mendaftar paket [GitHub Student Developer Pack](https://education.github.com/pack)
-* Pasang [Code::Blocks](http://www.codeblocks.org/downloads/26)
+1. Bergabung dengan grup WhatsApp. Pranala akan diberikan saat sesi kuliah.
+2. [Lengkapi profil GitHub Anda.](https://github.com/settings/profile)
+3. Mendaftar paket [GitHub Student Developer Pack](https://education.github.com/pack)
+4. Pasang [Code::Blocks](http://www.codeblocks.org/downloads/26)
    * Untuk Windows, gunakan varian **mingw-setup**.
-* TODO: Kerjakan tugas pendahuluan. Batas akhir pengumpulan: sehari sebelum sesi kuliah minggu ke-2.
-* TODO: Implementasi Linear Linked List. Batas akhir pengumpulan: Minggu-6 perkuliahan.
+5. TODO: Kerjakan tugas pendahuluan. Batas akhir pengumpulan: sehari sebelum sesi kuliah minggu ke-2.
+6. [Implementasi Linear Linked List](https:/struktur-data.github.io/syllabus/assignments/linear-linked-list). Batas akhir pengumpulan: Minggu-6 perkuliahan.
 
 ### Minggu ke-2
 
