@@ -7,8 +7,8 @@ permalink: /
 
 ***Bila Anda guru/dosen atau tertarik dengan desain mata kuliah ini, silakan lihat dokumen [meta](https://struktur-data.github.io/syllabus/meta).***
 
-* **Mata Kuliah:** [ITH1B4, Telkom University](http://bit.telkomuniversity.ac.id/?page_id=242)
-* **Dosen:** Danang Junaedi <[danangjunaedi@telkomuniversity.ac.id](mailto:danangjunaedi@telkomuniversity.ac.id)>, Hendy Irawan <[hendy@hendyirawan.com](mailto:hendy@hendyirawan.com)>
+* **Mata Kuliah:** [Struktur Data](http://bit.telkomuniversity.ac.id/?page_id=242)
+* **Dosen:** Yudha Islami Sulistya <[yudhaislami@telkomuniversity.ac.id](mailto:yudhaislami@telkomuniversity.ac.id)>
 * **SKS:** 3 SKS kuliah + 1 SKS praktikum
    * 14 minggu, masing-masing:
       * Kelas: 3 x 50 menit
@@ -16,7 +16,7 @@ permalink: /
       * Tugas: 1 x 50 menit
 * **Butuh bantuan?**
    * Lihat [issues](https://github.com/struktur-data/syllabus/issues) yang ada atau buat _issue_ baru
-   * Email [danangjunaedi@telkomuniversity.ac.id](mailto:danangjunaedi@telkomuniversity.ac.id) / [hendy@hendyirawan.com](mailto:hendy@hendyirawan.com) untuk diskusi/konsultasi atau bertemu langsung
+   * Email [yudhaislami@telkomuniversity.ac.id](mailto:yudhaislami@telkomuniversity.ac.id) untuk diskusi/konsultasi atau bertemu langsung
 
 ## Deskripsi Mata Kuliah
 
